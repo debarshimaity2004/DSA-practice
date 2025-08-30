@@ -1,7 +1,7 @@
 #36. Valid Sudoku
 #time complexity...O(1)
 #space complexity...O(1)
-import defaultdict from collections
+from collections import defaultdict
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         cols = defaultdict(set)
